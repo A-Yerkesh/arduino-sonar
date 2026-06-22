@@ -65,3 +65,18 @@ make -C test
 ```
 
 What is covered: `drv_ultrasonic` (pulse-to-distance conversion, timeout, out-of-range) and `app_sonar` (status propagation). The HAL and display layers are verified by flashing to hardware and manual testing.
+
+---
+
+## AI Usage
+
+This project was developed collaboratively with **Claude**, used as a
+pair programmer and subject-matter resource throughout.
+
+The process was strictly developer-led. At every step, the AI presented options
+with their trade-offs; the developer made all decisions. Code was written in small
+chunks (approximately 10 lines at a time) and reviewed before work continued.
+No code was written autonomously.
+
+All architectural decisions — module structure, data types, algorithm parameters,
+and testing strategy — were made by the developer.
